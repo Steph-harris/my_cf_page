@@ -1,0 +1,27 @@
+/*contact_styles.css*/
+.header, .email, .number, .address {
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  border: 4px ridge #008080;
+}
+.email, .number, .address {
+	padding: 1%;
+  margin-top: 5%;
+}
+#image_one, #image_two, #image_three {
+  margin-bottom: 2%;
+  padding-left: 5%;
+}
+.header {
+  margin-bottom: 5%;
+}
+.email {
+  left: -12%;
+}
+.number {
+  left: 4%;
+}
+.address {
+  left: -10%;
+}

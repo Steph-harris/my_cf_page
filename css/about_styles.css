@@ -1,0 +1,82 @@
+/*about_styles.css*/
+* {box-sizing: border-box;}
+body {
+	background-color: #2b2c29;
+	color: #307D7E;
+}
+#about {
+  padding-top: 4%;
+  padding-bottom: 9%;
+}
+#about_body {
+	margin-top: 0;
+	margin-left: 0%;
+	border:none;
+	background-color: transparent;
+	width: 100%;
+}
+#about_body h2 {
+	color: #fff;
+}
+.container {
+	width:80%;
+	margin: 0 auto;
+}
+.header h1 {
+	text-align: center;
+  background-size: contain;
+  text-decoration: none;
+}
+.image {
+	display: inline-block;
+	float: left;
+	margin-top: 2%;
+}
+.column {  
+	border: 4px ridge #008080;
+	display: inline-block;
+	padding: 0 20px;
+	margin: 3% 0%;
+}
+.intro {
+  position: relative;
+  padding: 1% 2%;
+  margin: 2% 0%;
+}
+.skills {
+  position: relative;
+  margin: 3% 0%;
+  margin: 2% 0%;
+}
+.main_text {
+	border: 4px ridge #008080;
+	padding: 2px 15px;
+	margin-top: 1%;
+	position: relative;
+}
+#skill_list {
+	padding: 0 0 0 10%;
+	margin-left: 0px;
+}
+
+/*main typography*/
+h1, h2, h3 {
+	font-family: 'Open Sans', Futura, Helvetica, Arial, sans-serif;
+	color: #f5f2f2;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+}
+p, li {
+	font-family: 'Lora', Georgia, Times, Times New Roman, serif;
+}
+.intro p {
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  -webkit-margin-before: 0;
+}
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}

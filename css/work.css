@@ -1,0 +1,15 @@
+/*work.css*/
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height:auto;
+}
+
+#first, #second, #third, #fourth {
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 95%;
+}
+.example h3 {
+	margin-top: 0;
+}

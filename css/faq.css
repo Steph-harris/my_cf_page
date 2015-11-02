@@ -1,0 +1,56 @@
+/*faq.css*/
+#faq .header {
+	margin-bottom: 4%;
+}
+.learn-more {
+	text-align: left;
+	float: left;
+}
+.modal-button {
+	float: right;
+	padding: 10px;
+}
+.panel {
+	border: none;
+}
+.panel-group{
+	width:90%;
+	margin-left: 5%;
+}
+.panel-group .panel {
+	margin-bottom: -6px;
+}
+.panel-default>.panel-heading {
+	font-family: Lucida Bright, Georgia, serif;
+	background-color: #2b2c29;
+  margin-top: 5px;
+}
+.panel-default {
+	background-color: transparent;
+}
+.panel-heading span {
+	color: black;
+}
+.panel-title {
+	background-color: silver;
+	color: #008080;
+}
+.panel-body {
+	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: silver;
+	color: #330033;
+	padding: 15px 30px;
+}
+.panel-body a {
+	color:teal;
+}
+span {
+	color: white;
+}
+#accordion a:hover, span:hover {
+	color:gray;
+	background-color: white;
+}
+
