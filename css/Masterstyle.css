@@ -239,6 +239,7 @@ a, .dropdown-menu>li>a {
 	display: inline-block;
 	float: left;
 	margin-top: 2%;
+	margin-left: 0;
 }
 .column {  
 	border: 4px ridge #337AB7;
@@ -251,7 +252,7 @@ a, .dropdown-menu>li>a {
   padding: 1% 2%;
   margin: 2% 0%;
 }
-.intro p {
+.intro p, #skill_list {
 	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 500;
@@ -276,8 +277,14 @@ a, .dropdown-menu>li>a {
 	margin-top: 1%;
 	position: relative;
 }
-.video {
-	margin-top: 3%;
+.more {
+	clear: both;
+	text-align: center;
+	padding-top: 3%;
+}
+
+.more h2 {
+	text-decoration: none;
 }
 
 /*Contact Page*/
@@ -305,7 +312,6 @@ label {
 }
 #image_one, #image_two, #image_three {
   margin-bottom: 2%;
-  padding-left: 5%;
 }
 .header {
   margin-bottom: 2%;
