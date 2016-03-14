@@ -78,7 +78,7 @@ span {
 }
 .projectname {
 	text-transform: uppercase;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 .projectname a:link{
 	color: #9d9d9d;
@@ -147,7 +147,7 @@ a, .dropdown-menu>li>a {
 
 /*Home Page*/
 .jumbotron {
-  padding: 0px; 
+  padding: 0px;
   background-color: transparent;
   color: #FFFFDF;
   margin-bottom: 0;
@@ -241,7 +241,7 @@ a, .dropdown-menu>li>a {
 	margin-top: 2%;
 	margin-left: 0;
 }
-.column {  
+.column {
 	border: 4px ridge #337AB7;
 	display: inline-block;
 	padding: 0 20px;
@@ -260,8 +260,7 @@ a, .dropdown-menu>li>a {
 }
 .skills {
   position: relative;
-  margin: 3% 0%;
-  margin: 2% 0%;
+  margin: 0%;
 }
 #skill_list {
 	padding: 0 0 0 10%;
@@ -441,7 +440,7 @@ table {
 footer {
 	padding: 2%;
 }
-.twitter-follow { 
+.twitter-follow {
 display: inline-block;
 }
 .fb-follow.fb_iframe_widget{
